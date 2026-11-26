@@ -35,7 +35,7 @@ SC.pages.dangnhap = {
         ? '<label for="dn-lop">Em học lớp nào?</label><select id="dn-lop">' + this.chonLop.map(function (l) { return '<option value="' + E(l) + '">' + E(l) + '</option>'; }).join('') + '</select>' : '';
       form = '<form id="dn-form" novalidate><label for="dn-ten">Tên của em</label>' +
         '<input id="dn-ten" maxlength="40" autocomplete="off" spellcheck="false" placeholder="ví dụ: Lan hoặc Minh Anh" value="' + E(this.tenDaGo) + '">' + chon +
-        '<p class="mute">Gõ tên như cô đã ghi trong danh sách lớp (có dấu hay không dấu đều được). <b>Chỉ dùng tên gọi ở lớp hoặc biệt danh;</b> không nhập họ tên đầy đủ, ngày sinh hay số điện thoại.</p>' +
+        '<p class="mute">Gõ <b>đúng tên như cô đã ghi trong danh sách lớp</b> (có dấu hay không dấu đều được; danh sách ghi họ tên đầy đủ thì gõ đầy đủ). Hai bạn trùng tên thì tên bạn sau có thêm số (ví dụ «… 2»). Không nhập ngày sinh, số điện thoại hay mật khẩu vào đây.</p>' +
         '<p><button class="btn" type="submit" id="dn-gui">Vào lớp</button></p></form>' +
         '<details class="dn-cu"><summary class="mute">Vào bằng mã lớp + mã học sinh (cách cũ)</summary><form id="dn-form-ma" novalidate>' +
         '<label for="dn-malop">Mã lớp</label><input id="dn-malop" maxlength="12" autocomplete="off" autocapitalize="characters" spellcheck="false" style="text-transform:uppercase" placeholder="ví dụ: K7M2QX">' +

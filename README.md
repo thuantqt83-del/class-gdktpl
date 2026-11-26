@@ -2,6 +2,8 @@
 
 **Trang web: https://thuantqt83-del.github.io/class-gdktpl/** (GitHub Pages; mở bằng trình duyệt, không cần cài đặt).
 
+**Hướng dẫn cho học sinh (PDF):** [huong-dan/HUONG-DAN-HOC-SINH.pdf](huong-dan/HUONG-DAN-HOC-SINH.pdf) · mã QR và áp phích để in: thư mục [huong-dan](huong-dan).
+
 Ứng dụng học tập môn **Giáo dục Kinh tế và Pháp luật** lớp 10 – 11 – 12. Viết bằng HTML và JavaScript thuần, **chạy ngay trên trình duyệt, không cần cài đặt**; phần học và luyện đề chạy được khi không có mạng.
 
 > Nội dung là **bản nháp chờ giáo viên duyệt**. Số tiền, giá, số liệu trong các trò mô phỏng là **số giả định**. Trợ giảng trong app là bản soạn sẵn, **chưa phải AI thật**.
